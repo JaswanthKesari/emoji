@@ -1,0 +1,108 @@
+body{
+    background-image: radial-gradient(black,rgb(147, 44, 44));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+}
+#hello{
+    background-image: radial-gradient(black,rgb(147, 44, 44));
+    text-shadow: 4px 4px yellow;
+}
+
+.face:hover{
+    transform:scale(2,2);
+    background-color: red;
+    filter: drop-shadow(-10px -10px 90px red);
+
+
+}
+.smile:hover{
+    height: 50px;
+    width: 170px;
+    background-color: white ;
+    
+    position: absolute;
+    margin: 20px 0px 0px 30px;
+    border-radius:10px;
+    border-top-left-radius: 190px;
+    border-top-right-radius: 190px;
+}
+.mouth:hover{
+    height: 90px;
+    width: 240px;
+    
+    background-color: rgb(47,42,42) ;
+    border-radius:10px;
+    position: absolute;
+    margin: 240px 0px 0px 80px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+}
+
+.face{
+    height: 400px;
+    width: 400px;
+    background-color:rgb(253, 208, 28);
+    border-radius: 50%;
+    
+    margin: 300px 0px 0px 800px;
+    position: relative;
+    filter: drop-shadow(-10px -10px 90px rgb(253, 208, 28));
+}
+.eyes{
+    height: 70px;
+    width: 45px;
+    background-color: rgb(47,42,42);
+    border: 2px solid rgb(47,42,42);
+    border-radius: 50%;
+    position: absolute;
+    margin: 90px 0px 50px 105px;
+}
+.r_eye{
+    height: 70px;
+    width: 45px;
+    background-color: rgb(47,42,42);
+    border: 2px solid rgb(47,42,42);
+    border-radius: 50%;
+    position: absolute;
+    margin: 0px 0px 50px 120px;
+}
+.l_pupil{
+    height: 30px;
+    width: 20px;
+    background-color: white ;
+    border-radius: 50%;
+    position: absolute;
+    margin: 20px 0px 0px 15px;
+}
+.r_pupil{
+    height: 30px;
+    width: 20px;
+    background-color: white ;
+    border-radius: 50%;
+    position: absolute;
+    margin: 20px 0px 0px 15px;
+}
+.smile{
+    height: 50px;
+    width: 170px;
+    background-color: white ;
+    
+    position: absolute;
+    margin: 20px 0px 0px 30px;
+    border-radius:10px;
+    border-bottom-left-radius: 190px;
+    border-bottom-right-radius: 190px;
+}
+
+.mouth{
+    height: 90px;
+    width: 240px;
+    
+    background-color: rgb(47,42,42) ;
+    border-radius:10px;
+    position: absolute;
+    margin: 240px 0px 0px 70px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
